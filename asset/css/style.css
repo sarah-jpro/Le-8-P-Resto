@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Playball&display=swap');
+
+.playball{
+    font-family: 'Playball', cursive;
+}
+.merienda{
+    font-family: 'Merienda One', cursive;
+}
+
+.sj-navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merienda One', cursive;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.sj-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+.sj-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.banner, 
+.order-form{
+    background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('../img/bg-hearder.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 625px;
+    
+}
+.order-form{
+    height: 596px;
+}
+.banner .banner-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(234, 241, 242);
+    text-shadow: 2px 1px 3px rgb(0, 255, 255), 0 0 1em rgb(251, 251, 251), 0 0 0.1em rgba(10, 246, 160, 0.863);
+
+}
+.sj-menu{
+    background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),url('../img/bg-footer.jpg') center center fixed no-repeat;
+    background-size: cover;
+    
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+#carouselExampleFade{
+    width: 50%;
+    margin: auto;
+}
+#classique{
+    box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.934);
+}
+#commander .container {
+    padding-top: 30px;
+    
+    
+}
+.js-btn {
+    font-family: 'Merienda One', cursive;
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+    
+}
+.js-btn:hover,
+.js.btn:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+.ft-navbar{
+    
+    font-family: 'Merienda One', cursive;
+    box-shadow: 3px 1px 4px rgba(255, 255, 255, 0.54);
+}
+footer{
+    box-shadow: 1px 1px 6px rgba(255, 255, 255, 0.54);
+}
+footer .copy{
+    height: 102px ;
+ 
+}
+footer .container{
+    padding-top: 40px;
+}
+.my-form{
+    padding-top: 7px;
+    color: var(--bs-teal);
+}
+.js-link{
+    color: var(--bs-teal);
+}
+.my-text {
+    padding-bottom: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: var(--bs-teal);
+}
+.my-text:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+  
+
+
+
